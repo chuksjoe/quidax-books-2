@@ -1,0 +1,74 @@
+.no-outline { outline: none !important;}
+
+p, textarea {
+  white-space: pre-line;
+  overflow-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6, p,
+div, header, section {
+  margin: 0;
+}
+
+section {
+  width: 100%;
+  margin: 0;
+}
+
+button, .pointer {
+  cursor: pointer;
+}
+
+.w-full {
+  width: 100% !important;
+}
+.h-full {
+  height: 100% !important;
+}
+.relative {
+  position: relative !important;
+}
+.absolute {
+  position: absolute !important;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+.margin-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrap {
+  flex-wrap: wrap !important;
+}
+.flex {
+  display: flex !important;
+}
+.justify-center {
+  justify-content: center !important;
+}
+.items-center {
+  align-items: center !important;
+}
+.justify-between {
+  justify-content: space-between !important;
+}
+.inline-block {
+  display: inline-block !important;
+}
+.block {
+  display: inline-block !important;
+}
+.hidden {
+  display: none !important;
+}
